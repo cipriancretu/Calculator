@@ -1,19 +1,24 @@
+
+""" Import clear from replit and the logo"""
 from replit import clear
 from logo import logo
 
-
+"""This function make the add operation"""
 def add(n1, n2):
     return n1 + n2
 
 
+"""This function make the subtract operation"""
 def subtract(n1, n2):
     return n1 - n2
 
 
+"""This function make the multiply operation"""
 def multiply(n1, n2):
     return n1 * n2
 
 
+"""This function make the divide operation"""
 def divide(n1, n2):
     return n1 / n2
 
@@ -25,7 +30,7 @@ operations = {
     "/": divide
 }
 
-
+""" This function make the UI, the user imputs to choose the numbers and operation and return the result"""
 def calculator():
     print(logo)
 
